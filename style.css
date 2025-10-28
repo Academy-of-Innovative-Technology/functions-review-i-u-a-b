@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #0077cc;
+    background-color: salmon;
     color: white;
     text-align: center;
     padding: 1.2em 0;
@@ -17,7 +17,7 @@ main {
     margin: auto;
 }
 button {
-    background-color: #0077cc;
+    background-color: salmon;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -27,7 +27,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #005fa3;
+    background-color: rgb(255, 93, 74);
 }
 .output {
     background-color: #fff;

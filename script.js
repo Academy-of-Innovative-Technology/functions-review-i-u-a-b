@@ -42,6 +42,20 @@ b = 6;
     output2.innerHTML = `The area of a rectangle with a length of ${a} cm and a width of ${b} cm is ${a * b} cms`;
 }
 
+function favoriteColor(color){
+color = "blue";
+ let output2 = document.querySelector("#output2");
+    output2.innerHTML = `My favorite color is ${color}`;
+}
+
+function convert(farenheit, celsius){
+farenheit = 32;
+    celsius = 25;
+ let output2 = document.querySelector("#output2");
+    output2.innerHTML = `${celsius}°C is equal to ${farenheit+celsius}°F`;
+}
+
+
 // ===== EVENT LISTENERS THAT CALLS FUNCTIONS ===== //
 document.querySelector(".sayhellobtn").addEventListener("click", function(){
     sayHello();
@@ -69,4 +83,12 @@ hiAlex();
 
 document.querySelector(".equation3").addEventListener("click", function(){
 area();
+});
+
+document.querySelector(".equation4").addEventListener("click", function(){
+favoriteColor();
+});
+
+document.querySelector(".equation5").addEventListener("click", function(){
+convert();
 });
